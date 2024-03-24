@@ -7,7 +7,7 @@ function Footer() {
           Join thousands of fellow knowledge enthusiasts and subscribe to our
           weekly newsletter for content alerts, research tips, and more.
         </center>
-        <p>Copyright Knowledge E &copy; 2023. All Rights reserved</p>
+        <p>Copyright Knowledge E &copy; 2024. All Rights reserved</p>
       </footer>
     </>
   );

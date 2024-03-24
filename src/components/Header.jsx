@@ -11,29 +11,21 @@ export default function Header() {
                 width="100px"
                 height="100px"
               />
-              <h2 className="navbar-brand">Bookshelf</h2>
+              <h1 className="navbar-brand">Bookshelf</h1>
               {/* <a className="navbar-brand" href="#" style="color: #02416b">
               </a> */}
             </div>
             <div className="p-2 bd-highlight" id="navbarNav">
               <ul className="navbar-nav">
-                <li className="nav-item">
-                  {/* <a
-                    className="nav-link"
-                    href="./Signup.html"
-                    style="color: #26648e"
-                  >
-                  </a> */}
-                  <button className="btn btn-outline-success">Sign Up</button>
+                <li className="nav-item nav-link">
+                  <button className="btn btn-outline-success nav-link">
+                    Sign Up
+                  </button>
                 </li>
-                <li className="nav-item">
-                  {/* <a
-                    className="nav-link"
-                    href="./login.html"
-                    style="color: #26648e"
-                  >
-                  </a> */}
-                  <button className="btn btn-outline-success">Login</button>
+                <li className="nav-item nav-link">
+                  <button className="btn btn-outline-success nav-link">
+                    Login
+                  </button>
                 </li>
               </ul>
             </div>

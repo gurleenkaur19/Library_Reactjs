@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import Card from "./Card";
 
-function Slider({ title }) {
+function Slider({ title, books }) {
   return (
     <div>
       <div className="box">
@@ -18,17 +18,9 @@ function Slider({ title }) {
           <div className="container-fluid">
             <div style={{ overflowY: "hidden" }}>
               <div style={{ display: "flex" }}>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {books.map((book, index) => (
+                  <Card key={index} book={book} />
+                ))}
               </div>
             </div>
           </div>

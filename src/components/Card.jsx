@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
 
-function Card() {
+function Card({ book }) {
   return (
     <div>
       <div className="col-3">
         <div className="card-block">
           <section className="books">
-            <Link to="./Description.html" style={{ color: "#042c46" }}>
-              <img
-                src=" https://images-na.ssl-images-amazon.com/images/I/81TXkn53+KL._AC_UL232_SR232,232_.jpg"
-                alt="book1"
-              />
-              <h2>The Green Mile</h2>
-              <p>Novel by Stephen King</p>
+            <Link to="/Description" style={{ color: "#042c46" }}>
+              <img src={book.image} alt="book1" />
+              <h2>{book.title}</h2>
+              <p>{book.author}</p>
             </Link>
           </section>
         </div>
